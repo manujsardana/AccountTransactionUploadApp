@@ -14,7 +14,7 @@ Application to upload the Account Transaction Data from CSV, Perform validations
 ( NAME = N'AccountDatabase_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\AccountDatabase_log.ldf' , SIZE = 63424KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 
-After creating the database, create a table in the database using the below query (Change the database to the one which you created in the previous query). Keep the Table name as AccountTransactionData and the column names as same as below as we use the same name for SqlBulkCopy in the code to insert the data.
+After creating the database, create a table in the database using the below query (Change the database to the one which you created in the previous query). Keep the Table name as AccountTransactionData and the column names same as below as we have used the same name for SqlBulkCopy in the code to insert the data.
 
 USE [AccountDatabase]
 GO
